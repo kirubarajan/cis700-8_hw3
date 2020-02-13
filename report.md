@@ -1,5 +1,7 @@
 # Homework 3: Natural Language Understanding
 
+TODO: add instances of model performing incorrect classification for sentiment classifier and BERT classifier
+
 ## Sentiment Classifier
 Using the most positive candidate (according to TextBlob) yields the following accuracies:
 
@@ -15,6 +17,8 @@ Using the most positive candidate (according to TextBlob) yields the following a
 ```
 
 Which is not too impressive, considering that flipping a coin would yield a similar accuracy (~50%)
+
+TODO: finish implementing classification based off of average context sentiment (i wrote the code to compute average sentiment, so just use if/else statements for difference between options and average context sentiment)
 
 ## BERT Classifier
 Using the vanilla MLP with a ReLU non-linearity, we were able to yield the following accuracies:
