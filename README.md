@@ -76,3 +76,23 @@ When we train using the validation set with the included vanilla MLP code, we yi
 2016 test accuracy: 
 0.69000534473543561
 ```
+
+Increasing the first layer to have a size of 1000 yielded a small accuracy improvement:
+
+```
+2016 test accuracy: 
+0.7022982362373063
+```
+
+Increasing the number of number of training examples from validation set by 1000, and training for 30,000 steps yields the following accuracies:
+
+```
+0.7183324425440941
+```
+
+Finally, adding another dense layer of size 128 with ReLU activation gives us the following results:
+
+```
+2016 test accuracy: 
+0.7017637626937466
+```
